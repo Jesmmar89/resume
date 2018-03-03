@@ -1,0 +1,76 @@
+.verticalMenu, li{
+    display: block;
+    text-align: center;
+    margin:15px;
+    padding: 20px;
+}
+#homme:hover{
+	background-color: pink;
+
+}
+#mywork:hover{
+	background-color: red;
+
+}
+#resume:hover{
+	background-color: green;
+
+}
+#contact:hover{
+	background-color: blue;
+}
+#yoimg{
+	height: 100px;
+	width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.imagens{
+    width: 150px;
+    height: 100px;
+}
+#divimg{
+    margin-left: 70px;
+}
+#SecHeaderLeft, #SecHeaderRight, #Secleft, #SecRight, #SecFooterLeft, #SecFooterRight {
+    height: 400px;
+}
+#SecHeaderLeft{
+    background-color: DimGray;
+}
+#SecHeaderRight{
+    background-color: LightSalmon;
+}
+#Secleft{
+    background-color: RosyBrown;
+}
+#SecRight{
+    background-color: SlateGray;
+}
+#SecFooterLeft{
+    background-color: gray;
+}
+#SecFooterRight{
+    background-color: Thistle;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+h2, h3, p{
+    text-align: center;
+    padding: 10px;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: LightSteelBlue;
+}
